@@ -1,0 +1,45 @@
+<p>
+        Access to the internet has become increasingly important in our daily
+        lives. It provides us with easy access to information, communication
+        with people from all over the world, and the ability to carry out
+        various tasks online, from shopping to banking. With the rise of remote
+        work and online education, the internet has become even more essential.
+        It offers opportunities for people to connect, learn, and work from
+        anywhere in the world, breaking down geographical barriers and opening
+        up new possibilities for personal and professional growth. Additionally,
+        internet access can improve access to healthcare, government services,
+        and financial services, making it an essential tool for social and
+        economic development. 
+      </p>
+
+
+
+slider image:::::::::::::
+.slider-cs {
+  background-image: url(/images/area.gif);
+  width: 750px;
+  height: 550px;
+  background-size: cover;
+
+  animation: slider 11s infinite;
+  position:center;
+  
+}
+@keyframes slider {
+  25% {
+    background: url(/images/Slider-1.webp);
+    background-size: cover;
+  }
+  50% {
+    background: url(/images/slider-2.gif);
+    background-size: cover;
+  }
+  75% {
+    background: url(/images/slider-3.webp);
+    background-size: cover;
+  }
+  100% {
+    background: url(/images/slider-4.gif);
+    background-size: cover;
+  }
+}
